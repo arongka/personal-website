@@ -38,7 +38,6 @@ body {
 	visibility: visible;
 	left: 980px;
 	top: 220px;
-    background-color: green;
     transition: transform .2s;
     width: 150px;
     height: 150px;
@@ -74,4 +73,12 @@ body {
 /* really customized drop down menu. shows horizontal list instead of vertical*/
 #options:hover .menu {
 	display: table;
+}
+
+/*go back to top of page*/
+#goto-top{
+	position: absolute;
+	visibility: visible;
+	left: 1225px;
+	top: 1500px;
 }

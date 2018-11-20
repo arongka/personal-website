@@ -10,7 +10,8 @@ What I learned:
 html:
 - the basic structure of a html document
 - tags(head, title, body, div, h1-h6, img, a, marquee, ul, li) 
-- 
+- opening links in new tab using <a href="" target="_blank"></a>
+- adding mailto and tel:
 
 css:
 - background of the body of the html
