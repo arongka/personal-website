@@ -7,6 +7,14 @@ body {
    background-image: url('back.jpg');
 }
 
+#top_panel{
+	position: absolute; 
+	visibility: visible; 
+	width: 100%;
+	left: 0px; 
+	top: 20px; 
+}
+
 #profilephoto{
 	position: absolute;
 	visibility: visible;
@@ -24,24 +32,37 @@ body {
 	background-color: white;
 }
 
-#options{
+/*show image*/
+#options img{
 	position: absolute; 
 	visibility: visible; 
 	left: 900px; 
-	top: 300px; 
+	top: 200px; 
 	height: 150px; 
 	width: 150px;
     transition: transform .2s; 
 }
 
-#options:hover{
-	transform: scale(2); 
+/*animate image*/
+#options:hover img{
+	transform: scale(2);
 }
 
-#bottom_panel{
-	position: absolute; 
-	visibility: visible; 
-	width: 100%;
-	left: 0px; 
-	top: 20px; 
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+    display: none;
+}
+
+#options:hover .table {
+	display: table;   /* Allow the centering to work */
+	margin: 0 auto;
+}
+ul#horiz-list {
+	min-width: 696px;
+	list-style: none;
+	padding-top: 20px;
+}
+
+#options:hover .dropdown-content ul#horiz-list li {
+	display: inline;
 }
