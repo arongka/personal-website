@@ -1,0 +1,60 @@
+/*style for entire website*/
+*{
+	margin:0;
+	padding:0;
+}
+
+/*for background of webpage*/
+body {
+   background-image: url('back.jpg');
+}
+
+/*welcome note*/
+#top_panel{
+	margin-top: 50px;
+    background-color: white;	
+}
+
+/*photo and intro*/
+#main_panel{
+	margin-top: 70px;
+	margin-left: 100px;
+	display: table;	   
+}
+
+/*photo*/
+#main_panel_left{
+	padding-right: 200px;
+	padding-bottom: 50px;
+}
+
+/*intro*/
+#main_panel_right{
+	background-color: white;
+}
+
+/*nav wheel*/
+#options{
+	padding: 50px;    
+    transition: transform .2s; 
+    width: 150px;
+    height: 150px;
+    margin: 190px;
+}
+
+/*animation of nav wheel*/
+#options:hover{
+	transform: scale(2.5); 
+}
+
+/*for alignment of elements*/
+.column {
+    float: left;
+    width: 50%;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
