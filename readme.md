@@ -9,7 +9,7 @@ What I learned:
 ************************
 html:
 - the basic structure of a html document
-- tags(head, title, body, div, h1-h6, img, a, marquee) 
+- tags(head, title, body, div, h1-h6, img, a, marquee, ul, li) 
 - 
 
 css:
@@ -17,6 +17,7 @@ css:
 - css selectors and their {key: value} attributes
 - absolute and relative layout
 - basic block model
+- css(:hover, )
 
 javascript:
 - getting current time

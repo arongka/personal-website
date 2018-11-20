@@ -32,3 +32,46 @@ body {
 	top: 220px;
 	background-color: white;
 }
+
+#options{
+	position: absolute;
+	visibility: visible;
+	left: 980px;
+	top: 220px;
+    background-color: green;
+    transition: transform .2s;
+    width: 150px;
+    height: 150px;
+}
+
+/*to zoom on hover. ref:https://www.w3schools.com/howto/howto_css_zoom_hover.asp*/
+#options:hover {
+    transform: scale(2);
+}
+
+.menu{
+	display: none;
+}
+#menu-list {
+	min-width: 696px;
+	position: absolute;
+	left: -180px;
+	top: 150px;
+	list-style: none;
+	padding-top: 20px;
+}
+#menu-list li {
+		display: inline;
+}
+
+#menu-list a{
+	color: black;
+    padding: 5px;
+    background-color: white;
+    text-decoration: none;
+}
+
+/* really customized drop down menu. shows horizontal list instead of vertical*/
+#options:hover .menu {
+	display: table;
+}
