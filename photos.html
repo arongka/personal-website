@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Photo Gallery</title>
+		<link rel="stylesheet" type="text/css" href="css\styles.css">
+		<script async src="js/photos.js"></script>
+	</head>
+	<body>
+		<div id="topPanel">
+			<h1>Don't Tell Me How Educated You Are, Tell Me How Much You Have Travelled</h1>
+			<h3>Hazrat Muhammad(Sm)</h3>
+			<button onclick="startSlideshow()">Open slideshow!</button>
+		</div>
+		<div id="imageStack">
+			<div class="image">
+				<img src="images\photo1.jpg" width=100%>
+				<a href=https://en.wikipedia.org/wiki/Genting_Skyway target="_blank"><h3>At Genting Skyway, Malaysia</h3></a>
+			</div>
+			<div class="image">
+				<img src="images\photo2.jpg" width=100%>
+				<a href=https://en.wikipedia.org/wiki/Marine_Life_Park target="_blank"><h3>At The S.E.A. Aquarium, Singapore</h3></a>
+			</div>
+		</div>
+		<div class="arrows">
+			<div id="leftArrow">
+				<button onclick="moveSlide(-1)"><h4>Previous</h4></button>
+			</div>
+			<div id="rightArrow">
+				<button onclick="moveSlide(1)"><h4>Next</h4></button>
+			</div>
+		</div>
+	</body>
+</html>

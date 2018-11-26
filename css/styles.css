@@ -4,7 +4,9 @@
 }
 
 body {
-   background-image: url('back.jpg');
+   background-image: url('../images/back.jpg');
+   font-family: Arial, Helvetica, sans-serif;
+   margin: 0;
 }
 
 #top_panel{
@@ -16,7 +18,7 @@ body {
 	top: 20px; 
 }
 
-#profilephoto{
+#profilePhoto{
 	position: absolute;
 	visibility: visible;
 	left: 300px;
@@ -31,6 +33,7 @@ body {
 	left: 550px;
 	top: 220px;
 	background-color: white;
+	text-align: center;
 }
 
 #options{
@@ -51,6 +54,7 @@ body {
 .menu{
 	display: none;
 }
+
 #menu-list {
 	min-width: 696px;
 	position: absolute;
@@ -59,6 +63,7 @@ body {
 	list-style: none;
 	padding-top: 20px;
 }
+
 #menu-list li {
 		display: inline;
 }
@@ -70,6 +75,10 @@ body {
     text-decoration: none;
 }
 
+#menu-list a:hover{
+	background-color: black;
+	color: white;
+}
 /* really customized drop down menu. shows horizontal list instead of vertical*/
 #options:hover .menu {
 	display: table;
@@ -78,7 +87,109 @@ body {
 /*go back to top of page*/
 #goto-top{
 	position: absolute;
-	visibility: visible;
-	left: 1225px;
+	left: 1200px;
 	top: 1500px;
+}
+
+/*define animation*/
+@keyframes myanimation {
+    from {}
+    to {}
+    /*
+    animation-name: myanimation;
+    animation-duration: 3s;
+    animation-delay: -2s;
+    animation-iteration-count: infinite;
+    */ 
+}
+
+/*
+-------------styles for photos page------------------
+*/
+
+/*Started learning to use relative layout*/
+#topPanel{
+	text-align: center;
+	background-color: white;
+	color: black;
+	position: relative;
+	padding: 180px;
+}
+
+#topPanel h1{
+	padding-top: 50px;
+}
+
+#topPanel h3{
+	padding: 20px;
+}
+
+#topPanel button{
+	background-color: black;
+	color: white;
+	padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    width: 250px;
+    font-size: 16px;
+}
+
+
+#imageStack{
+	position: relative;
+	margin: auto;
+	display: none;
+}
+
+.image{
+	display: none;
+}
+
+.image h3{
+	text-align: center;
+	color: white;
+}
+
+.image a{
+	padding: 20px;
+	color: white;
+	text-decoration: none;
+	text-shadow: none;
+}
+
+/* This will add a shadow on hover*/
+.image a:hover{
+	text-shadow: 1px 4px 3px gray;
+}
+
+.arrows{
+	float: bottom;
+	position: relative;
+}
+
+#leftArrow{
+	float: left;
+	display: none;
+}
+
+#rightArrow{
+	float: right;
+	display: none;
+}
+
+/* Learned to style buttons */
+.arrows button{
+	background-color: white;
+	color: black;
+	padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    width: 250px;
+    font-size: 16px;
+	box-shadow: none;
+}
+
+/* This will add shadow to the button on hover */
+button:hover{
+	box-shadow: 0 8px 16px 0 gray, 0 6px 20px 0 gray;
 }
