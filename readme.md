@@ -14,6 +14,7 @@ html:
 - creating buttons
 - adding mailto and tel:
 - the strong tag
+- html tables
 
 css:
 - background of the body of the html
@@ -23,6 +24,7 @@ css:
 - css(:hover, )
 - styling buttons, adding shadow on hover
 - adding border and border-image
+- styling html tables
 
 javascript:
 - getting current time

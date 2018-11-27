@@ -209,3 +209,36 @@ p{
 	color: white;
 	font-size: 20px;
 }
+
+/*
+-------------styles for academics page------------------
+*/
+
+h2{
+	position: relative;
+	color: black;
+	text-align: center;
+	font-size: 40px;
+	padding: 70px;
+	background-color: white;
+}
+
+table{
+	width: 100%;
+	padding: 90px;
+}
+
+tr:nth-child(even) {
+    background-color: gray;
+}
+
+tr:nth-child(odd) {
+    background-color: white;
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    font-weight:bold;
+    padding: 28px;
+}
