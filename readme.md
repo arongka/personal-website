@@ -13,6 +13,7 @@ html:
 - opening links in new tab using target="_blank"
 - creating buttons
 - adding mailto and tel:
+- the strong tag
 
 css:
 - background of the body of the html
@@ -21,6 +22,7 @@ css:
 - basic block model
 - css(:hover, )
 - styling buttons, adding shadow on hover
+- adding border and border-image
 
 javascript:
 - getting current time

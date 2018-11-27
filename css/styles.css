@@ -21,19 +21,27 @@ body {
 #profilePhoto{
 	position: absolute;
 	visibility: visible;
-	left: 300px;
+	left: 200px;
 	top: 200px;
 	height: 200px;
 	width: 200px;
+    padding:1px;
+    border:1px solid white;
 }
 
 #data{
 	position: absolute;
 	visibility: visible;
-	left: 550px;
-	top: 220px;
+	left: 500px;
+	top: 205px;
 	background-color: white;
 	text-align: center;
+    border: 20px solid transparent;
+    border-image-source: url('../images/gear.png');
+    border-image-slice: 30%; 
+    border-image-width: 10px;
+    border-image-outset: 10px; 
+    border-image-repeat: round;
 }
 
 #options{
