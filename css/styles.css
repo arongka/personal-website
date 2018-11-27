@@ -21,12 +21,9 @@ body {
 #profilePhoto{
 	position: absolute;
 	visibility: visible;
-	left: 200px;
-	top: 200px;
-	height: 200px;
-	width: 200px;
-    padding:1px;
-    border:1px solid white;
+	left: 180px;
+	top: 199px;
+	border: 2px solid white;
 }
 
 #data{
