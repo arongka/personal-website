@@ -285,6 +285,10 @@ td, th {
 	padding-top: 100px;
 }
 
+#social li{
+	padding-bottom: 10px;
+}
+
 .center {
 	padding-top: 100px;
     display: block;
@@ -294,10 +298,10 @@ td, th {
 }
 
 .one{
-	width: 37.5%;
+	width: 30%;
 }
 .two{
-	width: 37.5%;
+	width: 45%;
 }
 .three{
 	width: 25%;
