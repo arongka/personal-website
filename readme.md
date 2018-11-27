@@ -1,4 +1,4 @@
-Personal website (https://arongka.github.io/personal-website/
+Personal website (https://arongka.github.io/personal-website/)
 ******************************
 Purpose of this project is to learn the basics of html, css and javascript - by applying as many functions as possible.
 No existing templates have been used, each line of code is manually written.
