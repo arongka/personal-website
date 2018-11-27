@@ -9,6 +9,17 @@ body {
    margin: 0;
 }
 
+#homeButton img{
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 10;
+}
+
+/*
+-------------styles for index page------------------
+*/
+
 #top_panel{
 	background-color: white;
 	position: absolute; 
@@ -21,7 +32,7 @@ body {
 #profilePhoto{
 	position: absolute;
 	visibility: visible;
-	left: 180px;
+	left: 140px;
 	top: 199px;
 	border: 2px solid white;
 }
@@ -29,7 +40,7 @@ body {
 #data{
 	position: absolute;
 	visibility: visible;
-	left: 500px;
+	left: 440px;
 	top: 205px;
 	background-color: white;
 	text-align: center;
@@ -44,14 +55,14 @@ body {
 #options{
 	position: absolute;
 	visibility: visible;
-	left: 980px;
-	top: 220px;
+	left: 940px;
+	top: 230px;
     transition: transform .2s;
     width: 150px;
     height: 150px;
 }
 
-/*to zoom on hover. ref:https://www.w3schools.com/howto/howto_css_zoom_hover.asp*/
+/* to zoom on hover. ref:https://www.w3schools.com/howto/howto_css_zoom_hover.asp */
 #options:hover {
     transform: scale(2);
 }
@@ -241,4 +252,53 @@ td, th {
     text-align: left;
     font-weight:bold;
     padding: 28px;
+}
+
+/*
+-------------styles for about me page------------------
+*/
+
+.column {
+    float: left;
+    width: 33.33%;
+}
+
+.column p{
+	color: white;
+	text-align: center;
+}
+
+.details{
+	color: white;
+	font-size: 20px;
+	text-align: center;
+}
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+#social{
+	float: right;
+	padding-top: 100px;
+}
+
+.center {
+	padding-top: 100px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.one{
+	width: 37.5%;
+}
+.two{
+	width: 37.5%;
+}
+.three{
+	width: 25%;
 }
