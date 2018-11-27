@@ -193,3 +193,14 @@ body {
 button:hover{
 	box-shadow: 0 8px 16px 0 gray, 0 6px 20px 0 gray;
 }
+
+/*
+-------------styles for contact page------------------
+*/
+
+p{
+	padding: 100px;
+	text-align: center;
+	color: white;
+	font-size: 20px;
+}
