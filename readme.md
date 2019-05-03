@@ -30,3 +30,10 @@ javascript:
 - getting current time
 - button onclick() function
 - creating image slideshows
+
+toDo:
+***********************
+1. my projects
+2. my articles
+3. videoclips
+4. feedback form
